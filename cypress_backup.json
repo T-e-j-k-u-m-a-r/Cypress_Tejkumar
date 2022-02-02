@@ -1,0 +1,25 @@
+{
+  "projectId": "18xfp2",
+  "$schema": "https://on.cypress.io/cypress.schema.json",
+  "env": {
+    "browserPermissions": {
+      "notifications": "allow",
+      "geolocation": "allow",
+      "camera": "block",
+      "microphone": "block",
+      "images": "allow",
+      "javascript": "allow",
+      "popups": "ask",
+      "plugins": "ask",
+      "cookies": "allow"
+    }
+  },
+  "watchForFileChanges": false,
+  "defaultCommandTimeout": 20000,
+  "responseTimeout": 20000,
+  "requestTimeout": 20000,
+  "pageLoadTimeout": 20000,
+  "baseUrl": "https://demoqa.com/alerts",
+  "chromeWebSecurity": false,
+  "retries": 1
+}

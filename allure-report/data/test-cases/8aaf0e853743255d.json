@@ -1,0 +1,161 @@
+{
+  "uid" : "8aaf0e853743255d",
+  "name" : "Check if the checkbox is selected or not",
+  "fullName" : "Check if the checkbox is selected or not",
+  "historyId" : "d46789921bd98369ae7cf0afbd8511a7",
+  "time" : {
+    "start" : 1629879954243,
+    "stop" : 1629879954325,
+    "duration" : 82
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"http://the-internet.herokuapp.com/checkboxes\")",
+      "time" : {
+        "start" : 1629879953517,
+        "stop" : 1629879954238,
+        "duration" : 721
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET http://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=http://the-internet.herokuapp.com/checkboxes&u=oeu1629879953979r0.026707775613375118&wxhr=true&t=1629879953988&f=298349752,318188263",
+      "time" : {
+        "start" : 1629879954237,
+        "stop" : 1629879954237,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get (\"#checkboxes > input\")",
+      "time" : {
+        "start" : 1629879954259,
+        "stop" : 1629879954294,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "eq (\"0\")",
+      "time" : {
+        "start" : 1629879954294,
+        "stop" : 1629879954321,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "expected **<input>** not to be **checked** assert",
+      "time" : {
+        "start" : 1629879954321,
+        "stop" : 1629879954321,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log (\"Checkbox 1 is selected by default...\")",
+      "time" : {
+        "start" : 1629879954322,
+        "stop" : 1629879954324,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "24923ed32b571fa6",
+      "name" : "Handling_AllTypesOf_Elements/Checkbox.js.mp4",
+      "source" : "24923ed32b571fa6.mp4",
+      "type" : "video/mp4",
+      "size" : 50011
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Check box Demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8aaf0e853743255d.json",
+  "parameterValues" : [ ]
+}

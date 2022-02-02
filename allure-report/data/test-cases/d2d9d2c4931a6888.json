@@ -1,0 +1,146 @@
+{
+  "uid" : "d2d9d2c4931a6888",
+  "name" : "Display hostname & protocol",
+  "fullName" : "Display hostname & protocol",
+  "historyId" : "5eafbca0de0bd613d285532849fe7c8a",
+  "time" : {
+    "start" : 1629879853071,
+    "stop" : 1629879853148,
+    "duration" : 77
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"http://codenboxautomationlab.com/practice/#top\")",
+      "time" : {
+        "start" : 1629879845832,
+        "stop" : 1629879853065,
+        "duration" : 7233
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "location",
+      "time" : {
+        "start" : 1629879853098,
+        "stop" : 1629879853109,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log (\"hostname :: codenboxautomationlab.com\")",
+      "time" : {
+        "start" : 1629879853125,
+        "stop" : 1629879853136,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log (\"protocol :: http:\")",
+      "time" : {
+        "start" : 1629879853137,
+        "stop" : 1629879853143,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "expected **http:** to equal **http:** assert",
+      "time" : {
+        "start" : 1629879853144,
+        "stop" : 1629879853144,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "e5997da3d586166d",
+      "name" : "August25th/URLDemo.js.mp4",
+      "source" : "e5997da3d586166d.mp4",
+      "type" : "video/mp4",
+      "size" : 118993
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "URL Demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d2d9d2c4931a6888.json",
+  "parameterValues" : [ ]
+}

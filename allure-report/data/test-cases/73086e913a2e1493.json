@@ -1,0 +1,339 @@
+{
+  "uid" : "73086e913a2e1493",
+  "name" : "TC01",
+  "fullName" : "TC01",
+  "historyId" : "427e35d7f5bad6e0d9f51378bde0a05c",
+  "time" : {
+    "start" : 1629879192653,
+    "stop" : 1629879194809,
+    "duration" : 2156
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"https://the-internet.herokuapp.com/upload\")",
+      "time" : {
+        "start" : 1629879191774,
+        "stop" : 1629879192649,
+        "duration" : 875
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https://the-internet.herokuapp.com/upload&u=oeu1629879192353r0.6820631157360539&wxhr=true&t=1629879192390&f=298349752,318188263",
+      "time" : {
+        "start" : 1629879192649,
+        "stop" : 1629879192649,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get (\"#file-upload\")",
+      "time" : {
+        "start" : 1629879192686,
+        "stop" : 1629879192738,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "attachFile (\"testData/bangalore.jpg\")",
+      "time" : {
+        "start" : 1629879192738,
+        "stop" : 1629879194101,
+        "duration" : 1363
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "fixture (\"testData/bangalore.jpg\"; \"base64\")",
+        "time" : {
+          "start" : 1629879192749,
+          "stop" : 1629879194053,
+          "duration" : 1304
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "bangalore.jpg attachFile",
+        "time" : {
+          "start" : 1629879194101,
+          "stop" : 1629879194101,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\"#file-submit\")",
+      "time" : {
+        "start" : 1629879194103,
+        "stop" : 1629879194129,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1629879194129,
+        "stop" : 1629879194335,
+        "duration" : 206
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=engagement&g=298283957&u=oeu1629879192353r0.6820631157360539&wxhr=true&t=1629879194214&f=298349752,318188263",
+      "time" : {
+        "start" : 1629879194334,
+        "stop" : 1629879194334,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "--submitting form-- form sub",
+      "time" : {
+        "start" : 1629879194334,
+        "stop" : 1629879194334,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "--waiting for new page to load-- page load",
+      "time" : {
+        "start" : 1629879194335,
+        "stop" : 1629879194335,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\"#uploaded-files\")",
+      "time" : {
+        "start" : 1629879194335,
+        "stop" : 1629879194761,
+        "duration" : 426
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=engagement&g=298283957&u=oeu1629879192353r0.6820631157360539&wxhr=true&t=1629879194214&f=298349752,318188263",
+      "time" : {
+        "start" : 1629879194760,
+        "stop" : 1629879194760,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https://the-internet.herokuapp.com/upload&u=oeu1629879192353r0.6820631157360539&wxhr=true&t=1629879192390&f=298349752,318188263",
+      "time" : {
+        "start" : 1629879194760,
+        "stop" : 1629879194760,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "#uploaded-files get",
+      "time" : {
+        "start" : 1629879194760,
+        "stop" : 1629879194760,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "expected **<div#uploaded-files.panel.text-center>** to exist in the DOM assert",
+      "time" : {
+        "start" : 1629879194760,
+        "stop" : 1629879194760,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\"#uploaded-files\")",
+      "time" : {
+        "start" : 1629879194761,
+        "stop" : 1629879194793,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "expected **'\\n    bangalore.jpg\\n&nbsp;&nbsp;'** to include **'bangalore.jpg'** assert",
+      "time" : {
+        "start" : 1629879194806,
+        "stop" : 1629879194806,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "79428341e27cfee8",
+      "name" : "20thAugust/FileUpload.js.mp4",
+      "source" : "79428341e27cfee8.mp4",
+      "type" : "video/mp4",
+      "size" : 103442
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 16,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "File Upload Demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "73086e913a2e1493.json",
+  "parameterValues" : [ ]
+}

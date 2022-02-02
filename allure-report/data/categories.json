@@ -1,0 +1,145 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "The following error originated from your application code, not from Cypress.\n\n  > adsbygoogle.push() error: Only one 'enable_page_level_ads' allowed per page.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.\n\nhttps://on.cypress.io/uncaught-exception-from-application",
+      "children" : [ {
+        "name" : "\"before all\" hook for \"Title Verification\"",
+        "uid" : "9cf0f80a557f9308",
+        "parentUid" : "3702b3889691efa67aa7bc3842f18dac",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629879102768,
+          "stop" : 1629879102770,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3702b3889691efa67aa7bc3842f18dac"
+    }, {
+      "name" : "`cy.type()` can only accept a string or number. You passed in: `undefined`\n\nhttps://on.cypress.io/type",
+      "children" : [ {
+        "name" : "Login Test",
+        "uid" : "1b9a9de456c2ef1c",
+        "parentUid" : "18056283b0f6813bd9e9ef95ef54a10a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629879578503,
+          "stop" : 1629879578847,
+          "duration" : 344
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "18056283b0f6813bd9e9ef95ef54a10a"
+    }, {
+      "name" : "Timed out retrying after 20000ms: Expected to find element: `p#dynamicClickMessage`, but never found it.",
+      "children" : [ {
+        "name" : "TC04 - Simple Click",
+        "uid" : "3855167a0745c637",
+        "parentUid" : "3e2e666bff2d8074cac1e047c6073f12",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629879967616,
+          "stop" : 1629879988081,
+          "duration" : 20465
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3e2e666bff2d8074cac1e047c6073f12"
+    }, {
+      "name" : "cy.iframe is not a function",
+      "children" : [ {
+        "name" : "TC01",
+        "uid" : "5e2058627bf184ca",
+        "parentUid" : "3aac1e2309f7df5bf6a9e21b8c8cb843",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629880007072,
+          "stop" : 1629880007572,
+          "duration" : 500
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3aac1e2309f7df5bf6a9e21b8c8cb843"
+    }, {
+      "name" : "Timed out retrying after 20000ms: Cannot read property 'display' of undefined",
+      "children" : [ {
+        "name" : "TC01",
+        "uid" : "a96a5bf938b6dc79",
+        "parentUid" : "387de7520adfc15f3cb8699f2e9afdd0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629880193702,
+          "stop" : 1629880216321,
+          "duration" : 22619
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "387de7520adfc15f3cb8699f2e9afdd0"
+    }, {
+      "name" : "Timed out retrying after 20000ms: `cy.trigger()` failed because this element is not visible:\n\n`<a href=\"#\" id=\"menu_admin_UserManagement\" class=\"arrow\">User Ma...</a>`\n\nThis element `<a#menu_admin_UserManagement.arrow>` is not visible because its content is being clipped by one of its parent elements, which has a CSS property of overflow: `hidden`, `scroll` or `auto`\n\nFix this problem, or use `{force: true}` to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with",
+      "children" : [ {
+        "name" : "hover on first main menu (Admin)",
+        "uid" : "5a8ec74880f562fc",
+        "parentUid" : "f0caaa16a0cd8240859a946a386d6973",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629880240406,
+          "stop" : 1629880260987,
+          "duration" : 20581
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f0caaa16a0cd8240859a946a386d6973"
+    }, {
+      "name" : "expected 'ToolsQA' to equal 'Registration Form'",
+      "children" : [ {
+        "name" : "Verify title & url contents",
+        "uid" : "5de9d379557dfe5b",
+        "parentUid" : "6eb821558a125f1309f28f80a2abe263",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629880289174,
+          "stop" : 1629880289657,
+          "duration" : 483
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6eb821558a125f1309f28f80a2abe263"
+    }, {
+      "name" : "Timed out retrying after 20000ms: Expected to find element: `#username`, but never found it.",
+      "children" : [ {
+        "name" : "Form filling and submission",
+        "uid" : "59b90659c6db36be",
+        "parentUid" : "3314ef26ad9af5c9f30c0bf8da04b66b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629880289725,
+          "stop" : 1629880310843,
+          "duration" : 21118
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3314ef26ad9af5c9f30c0bf8da04b66b"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

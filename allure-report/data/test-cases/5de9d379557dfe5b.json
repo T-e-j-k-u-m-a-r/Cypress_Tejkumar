@@ -1,0 +1,205 @@
+{
+  "uid" : "5de9d379557dfe5b",
+  "name" : "Verify title & url contents",
+  "fullName" : "Verify title & url contents",
+  "historyId" : "116af347ff02531a8d16b8ea73dcb0df",
+  "time" : {
+    "start" : 1629880289174,
+    "stop" : 1629880289657,
+    "duration" : 483
+  },
+  "status" : "failed",
+  "statusMessage" : "expected 'ToolsQA' to equal 'Registration Form'",
+  "statusTrace" : "AssertionError: expected 'ToolsQA' to equal 'Registration Form'\n    at Context.eval (https://demoqa.com/__cypress/tests?p=cypress\\integration\\SKPatro\\TC01_SignUp.js:107:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"/\")",
+      "time" : {
+        "start" : 1629880282463,
+        "stop" : 1629880289171,
+        "duration" : 6708
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&pvsid=3487530252139762&correlator=595245779228822&output=ldjh&impl=fif&eid=31062358,21067496,31062297&vrg=2021081901&ptt=17&sc=1&sfv=1-0-38&ecs=20210825&iu_parts=21849154601:22343295815,Ad.Plus-Anchor&enc_prev_ius=/0/1&prev_iu_szs=320x100&prev_scp=site=demoqa.com&cookie_enabled=1&cdm=demoqa.com&bc=31&abxe=1&lmt=1629386002&dt=1629880284291&dlt=1629880282950&idt=1291&frm=23&biw=1366&bih=613&isw=1000&ish=660&oid=3&adxs=15&adys=660&adks=1054281660&ucis=rz8tubfwk9sk&ifi=1&ifk=1033363510&u_his=2&u_h=768&u_w=1366&u_ah=728&u_aw=1366&u_cd=24&u_sd=1&u_tz=-420&u_java=false&u_nplug=3&u_nmime=4&flash=0&nhd=1&url=https://demoqa.com/alerts/&ref=https://demoqa.com/__/&top=https://demoqa.com/__/#/tests/integration/SKPatro/TC01_SignUp.js&vis=1&dmc=8&scr_x=0&scr_y=0&psz=970x-1&msz=970x-1&ga_vid=698385924.1629880284&ga_sid=1629880284&ga_hid=1297515857&ga_fc=false&fws=772&ohw=970&btvi=1&uach=WyJXaW5kb3dzIiwiMTAuMCIsIng4NiIsIiIsIjkyLjAuNDUxNS4xNTkiLFtdLG51bGwsbnVsbCxudWxsXQ..&tt_state=W3siaXNzdWVyT3JpZ2luIjoiaHR0cHM6Ly9hdHRlc3RhdGlvbi5hbmRyb2lkLmNvbSIsInN0YXRlIjo3fV0.",
+      "time" : {
+        "start" : 1629880289169,
+        "stop" : 1629880289169,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j93&a=1297515857&t=pageview&_s=1&dl=https://demoqa.com/alerts/&ul=en-us&de=UTF-8&dt=ToolsQA&sd=24-bit&sr=1366x768&vp=983x660&je=0&_u=YAhAAUABAAAAAC~&jid=406149839&gjid=2110163689&cid=698385924.1629880284&tid=UA-109033876-1&_gid=449908568.1629880285&_r=1&gtm=2ou8n0&z=1159973286",
+      "time" : {
+        "start" : 1629880289170,
+        "stop" : 1629880289170,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "/ request",
+      "time" : {
+        "start" : 1629880289170,
+        "stop" : 1629880289170,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "/ request",
+      "time" : {
+        "start" : 1629880289170,
+        "stop" : 1629880289170,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://pagead2.googlesyndication.com/getconfig/sodar?sv=200&tid=gpt&tv=2021081901&st=env",
+      "time" : {
+        "start" : 1629880289170,
+        "stop" : 1629880289170,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected 'ToolsQA' to equal 'Registration Form'",
+    "statusTrace" : "AssertionError: expected 'ToolsQA' to equal 'Registration Form'\n    at Context.eval (https://demoqa.com/__cypress/tests?p=cypress\\integration\\SKPatro\\TC01_SignUp.js:107:21)",
+    "steps" : [ {
+      "name" : "title",
+      "time" : {
+        "start" : 1629880289262,
+        "stop" : 1629880289270,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "expected **ToolsQA** to equal **Registration Form** assert",
+      "time" : {
+        "start" : 1629880289655,
+        "stop" : 1629880289656,
+        "duration" : 1
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "74e3a2b999b3c1c",
+      "name" : "SKPatro/TC01_SignUp.js.mp4",
+      "source" : "74e3a2b999b3c1c.mp4",
+      "type" : "video/mp4",
+      "size" : 214601
+    }, {
+      "uid" : "e9fe601f08bebf83",
+      "name" : "SKPatro/TC01_SignUp.js:2021-08-25T08:31:29.367Z",
+      "source" : "e9fe601f08bebf83.png",
+      "type" : "image/png",
+      "size" : 183553
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Sign up form filling"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5de9d379557dfe5b.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,251 @@
+{
+  "uid" : "251db1905bd21f5",
+  "name" : "Double Click",
+  "fullName" : "Double Click",
+  "historyId" : "f61a0538540a3141f7a27dbe1a4ed300",
+  "time" : {
+    "start" : 1629879921762,
+    "stop" : 1629879922018,
+    "duration" : 256
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"https://demoqa.com/buttons\")",
+      "time" : {
+        "start" : 1629879913564,
+        "stop" : 1629879921759,
+        "duration" : 8195
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j93&a=109164071&t=pageview&_s=1&dl=https://demoqa.com/buttons&ul=en-us&de=UTF-8&dt=ToolsQA&sd=24-bit&sr=1366x768&vp=983x660&je=0&_u=YEBAAUABAAAAAC~&jid=336244738&gjid=1722149608&cid=201475309.1629879915&tid=UA-109033876-1&_gid=433330810.1629879915&_r=1&gtm=2ou8n0&z=1679484839",
+      "time" : {
+        "start" : 1629879921757,
+        "stop" : 1629879921757,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&pvsid=2609216082691425&correlator=2501649767309239&output=ldjh&impl=fif&eid=31062374,21068031,21067496,31062297&vrg=2021082401&ptt=17&sc=1&sfv=1-0-38&ecs=20210825&iu_parts=21849154601:22343295815,Ad.Plus-Anchor&enc_prev_ius=/0/1&prev_iu_szs=320x100&prev_scp=site=demoqa.com&cookie_enabled=1&cdm=demoqa.com&bc=31&abxe=1&lmt=1629386002&dt=1629879915360&dlt=1629879913809&idt=1489&frm=23&biw=1366&bih=613&isw=983&ish=660&oid=3&adxs=7&adys=660&adks=1054281660&ucis=vb3rmmlm3888&ifi=1&ifk=134351117&u_his=2&u_h=768&u_w=1366&u_ah=728&u_aw=1366&u_cd=24&u_sd=1&u_tz=-420&u_java=false&u_nplug=3&u_nmime=4&flash=0&nhd=1&url=https://demoqa.com/buttons&ref=https://demoqa.com/__/&top=https://demoqa.com/__/#/tests/integration/Handling_AllTypesOf_Elements/AllTypesOfClicks.js&vis=1&dmc=8&scr_x=0&scr_y=0&psz=970x-1&msz=970x-1&ga_vid=201475309.1629879915&ga_sid=1629879915&ga_hid=109164071&ga_fc=false&fws=772&ohw=970&btvi=1&uach=WyJXaW5kb3dzIiwiMTAuMCIsIng4NiIsIiIsIjkyLjAuNDUxNS4xNTkiLFtdLG51bGwsbnVsbCxudWxsXQ..&tt_state=W3siaXNzdWVyT3JpZ2luIjoiaHR0cHM6Ly9hdHRlc3RhdGlvbi5hbmRyb2lkLmNvbSIsInN0YXRlIjo3fV0.",
+      "time" : {
+        "start" : 1629879921757,
+        "stop" : 1629879921758,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "https://demoqa.com/buttons request",
+      "time" : {
+        "start" : 1629879921758,
+        "stop" : 1629879921758,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "https://demoqa.com/buttons request",
+      "time" : {
+        "start" : 1629879921758,
+        "stop" : 1629879921758,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://pagead2.googlesyndication.com/getconfig/sodar?sv=200&tid=gpt&tv=2021082401&st=env",
+      "time" : {
+        "start" : 1629879921758,
+        "stop" : 1629879921758,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "contains (\"Double Click Me\")",
+      "time" : {
+        "start" : 1629879921802,
+        "stop" : 1629879921854,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "trigger (\"dblclick\")",
+      "time" : {
+        "start" : 1629879921854,
+        "stop" : 1629879921976,
+        "duration" : 122
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "dblclick request",
+      "time" : {
+        "start" : 1629879921975,
+        "stop" : 1629879921975,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\"#doubleClickMessage\")",
+      "time" : {
+        "start" : 1629879921976,
+        "stop" : 1629879921993,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log (\"You have done a double click\")",
+      "time" : {
+        "start" : 1629879922009,
+        "stop" : 1629879922014,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "expected **You have done a double click** to equal **You have done a double click** assert",
+      "time" : {
+        "start" : 1629879922014,
+        "stop" : 1629879922014,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "1c9ddecf2cb19df9",
+      "name" : "Handling_AllTypesOf_Elements/AllTypesOfClicks.js.mp4",
+      "source" : "1c9ddecf2cb19df9.mp4",
+      "type" : "video/mp4",
+      "size" : 106094
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Clicks Demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "251db1905bd21f5.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,205 @@
+{
+  "uid" : "5e2058627bf184ca",
+  "name" : "TC01",
+  "fullName" : "TC01",
+  "historyId" : "225f54a702502bf6d2d7ceb84324258c",
+  "time" : {
+    "start" : 1629880007072,
+    "stop" : 1629880007572,
+    "duration" : 500
+  },
+  "status" : "failed",
+  "statusMessage" : "cy.iframe is not a function",
+  "statusTrace" : "TypeError: cy.iframe is not a function\n    at Context.eval (https://demoqa.com/__cypress/tests?p=cypress\\integration\\Handling_AllTypesOf_Elements\\FramesDemo.js:105:8)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"https://demoqa.com/frames\")",
+      "time" : {
+        "start" : 1629879999699,
+        "stop" : 1629880007061,
+        "duration" : 7362
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&pvsid=4266405243562917&correlator=1722369518097583&output=ldjh&impl=fif&eid=31062361,21067496,31062297&vrg=2021081901&ptt=17&sc=1&sfv=1-0-38&ecs=20210825&iu_parts=21849154601:22343295815,Ad.Plus-Anchor&enc_prev_ius=/0/1&prev_iu_szs=320x100&prev_scp=site=demoqa.com&cookie_enabled=1&cdm=demoqa.com&bc=31&abxe=1&lmt=1629386002&dt=1629880001450&dlt=1629879999976&idt=1419&frm=23&biw=1366&bih=613&isw=983&ish=660&oid=3&adxs=7&adys=660&adks=1054281660&ucis=w0muc49f354e&ifi=1&ifk=2204151815&u_his=2&u_h=768&u_w=1366&u_ah=728&u_aw=1366&u_cd=24&u_sd=1&u_tz=-420&u_java=false&u_nplug=3&u_nmime=4&flash=0&nhd=1&url=https://demoqa.com/frames&ref=https://demoqa.com/__/&top=https://demoqa.com/__/#/tests/integration/Handling_AllTypesOf_Elements/FramesDemo.js&vis=1&dmc=8&scr_x=0&scr_y=0&psz=970x-1&msz=970x-1&ga_vid=138070.1629880001&ga_sid=1629880001&ga_hid=1157422624&ga_fc=false&fws=772&ohw=970&btvi=1&uach=WyJXaW5kb3dzIiwiMTAuMCIsIng4NiIsIiIsIjkyLjAuNDUxNS4xNTkiLFtdLG51bGwsbnVsbCxudWxsXQ..&tt_state=W3siaXNzdWVyT3JpZ2luIjoiaHR0cHM6Ly9hdHRlc3RhdGlvbi5hbmRyb2lkLmNvbSIsInN0YXRlIjo3fV0.",
+      "time" : {
+        "start" : 1629880007058,
+        "stop" : 1629880007058,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j93&a=1157422624&t=pageview&_s=1&dl=https://demoqa.com/frames&ul=en-us&de=UTF-8&dt=ToolsQA&sd=24-bit&sr=1366x768&vp=983x660&je=0&_u=YAhAAUABAAAAAC~&jid=1049927769&gjid=1772719065&cid=138070.1629880001&tid=UA-109033876-1&_gid=809331632.1629880002&_r=1&gtm=2ou8n0&z=282979943",
+      "time" : {
+        "start" : 1629880007059,
+        "stop" : 1629880007059,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "https://demoqa.com/frames request",
+      "time" : {
+        "start" : 1629880007059,
+        "stop" : 1629880007059,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "https://demoqa.com/frames request",
+      "time" : {
+        "start" : 1629880007059,
+        "stop" : 1629880007059,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "https://demoqa.com/frames request",
+      "time" : {
+        "start" : 1629880007060,
+        "stop" : 1629880007060,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "https://demoqa.com/frames request",
+      "time" : {
+        "start" : 1629880007060,
+        "stop" : 1629880007060,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://pagead2.googlesyndication.com/getconfig/sodar?sv=200&tid=gpt&tv=2021081901&st=env",
+      "time" : {
+        "start" : 1629880007061,
+        "stop" : 1629880007061,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "cy.iframe is not a function",
+    "statusTrace" : "TypeError: cy.iframe is not a function\n    at Context.eval (https://demoqa.com/__cypress/tests?p=cypress\\integration\\Handling_AllTypesOf_Elements\\FramesDemo.js:105:8)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8fc556a882a79310",
+      "name" : "Handling_AllTypesOf_Elements/FramesDemo.js.mp4",
+      "source" : "8fc556a882a79310.mp4",
+      "type" : "video/mp4",
+      "size" : 119587
+    }, {
+      "uid" : "f640e8222eb6ed8a",
+      "name" : "Handling_AllTypesOf_Elements/FramesDemo.js:2021-08-25T08:26:47.205Z",
+      "source" : "f640e8222eb6ed8a.png",
+      "type" : "image/png",
+      "size" : 180110
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Handling Frames Demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5e2058627bf184ca.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,204 @@
+{
+  "uid" : "bdb2ce53bedd736d",
+  "name" : "TC01",
+  "fullName" : "TC01",
+  "historyId" : "59de20b9ccd958b97da452f4267fb8eb",
+  "time" : {
+    "start" : 1629879380670,
+    "stop" : 1629879383134,
+    "duration" : 2464
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"http://codenboxautomationlab.com/practice/#top\")",
+      "time" : {
+        "start" : 1629879370592,
+        "stop" : 1629879380665,
+        "duration" : 10073
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get (\"#dropdown-class-example\")",
+      "time" : {
+        "start" : 1629879380693,
+        "stop" : 1629879380752,
+        "duration" : 59
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "scrollIntoView",
+      "time" : {
+        "start" : 1629879380752,
+        "stop" : 1629879380788,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\"#dropdown-class-example\")",
+      "time" : {
+        "start" : 1629879380788,
+        "stop" : 1629879380809,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "select (\"Selenium\")",
+      "time" : {
+        "start" : 1629879380809,
+        "stop" : 1629879381063,
+        "duration" : 254
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "wait (\"2000\")",
+      "time" : {
+        "start" : 1629879381063,
+        "stop" : 1629879383073,
+        "duration" : 2010
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "2000 request",
+      "time" : {
+        "start" : 1629879383072,
+        "stop" : 1629879383072,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\"#dropdown-class-example\")",
+      "time" : {
+        "start" : 1629879383073,
+        "stop" : 1629879383100,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "find (\"option:selected\"; \"Selenium\")",
+      "time" : {
+        "start" : 1629879383101,
+        "stop" : 1629879383127,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "25e0ef4c9527fe91",
+      "name" : "23rdAug_Week/DropDown123.js.mp4",
+      "source" : "25e0ef4c9527fe91.mp4",
+      "type" : "video/mp4",
+      "size" : 155454
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Drop Down Demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bdb2ce53bedd736d.json",
+  "parameterValues" : [ ]
+}

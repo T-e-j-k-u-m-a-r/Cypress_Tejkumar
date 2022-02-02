@@ -1,0 +1,130 @@
+{
+  "uid" : "1b9a9de456c2ef1c",
+  "name" : "Login Test",
+  "fullName" : "Login Test",
+  "historyId" : "9241a368fd16c218b42ffa3abf218ab4",
+  "time" : {
+    "start" : 1629879578503,
+    "stop" : 1629879578847,
+    "duration" : 344
+  },
+  "status" : "failed",
+  "statusMessage" : "`cy.type()` can only accept a string or number. You passed in: `undefined`\n\nhttps://on.cypress.io/type",
+  "statusTrace" : "CypressError: `cy.type()` can only accept a string or number. You passed in: `undefined`\n\nhttps://on.cypress.io/type\n    at Context.type (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:139764:17)\n    at Context.<anonymous> (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:157781:21)\nFrom Your Spec Code:\n    at Context.eval (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\integration\\APICommandsExploration\\FixturesDemo.js:104:33)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"https://opensource-demo.orangehrmlive.com/index.php/auth/login\")",
+      "time" : {
+        "start" : 1629879577507,
+        "stop" : 1629879578498,
+        "duration" : 991
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "`cy.type()` can only accept a string or number. You passed in: `undefined`\n\nhttps://on.cypress.io/type",
+    "statusTrace" : "CypressError: `cy.type()` can only accept a string or number. You passed in: `undefined`\n\nhttps://on.cypress.io/type\n    at Context.type (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:139764:17)\n    at Context.<anonymous> (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:157781:21)\nFrom Your Spec Code:\n    at Context.eval (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\integration\\APICommandsExploration\\FixturesDemo.js:104:33)",
+    "steps" : [ {
+      "name" : "get (\"input#txtUsername\")",
+      "time" : {
+        "start" : 1629879578523,
+        "stop" : 1629879578568,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "type",
+      "time" : {
+        "start" : 1629879578568,
+        "stop" : 1629879578844,
+        "duration" : 276
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "7afc5fad0b0a0dbc",
+      "name" : "APICommandsExploration/FixturesDemo.js.mp4",
+      "source" : "7afc5fad0b0a0dbc.mp4",
+      "type" : "video/mp4",
+      "size" : 66288
+    }, {
+      "uid" : "37542233bc276d04",
+      "name" : "APICommandsExploration/FixturesDemo.js:2021-08-25T08:19:38.611Z",
+      "source" : "37542233bc276d04.png",
+      "type" : "image/png",
+      "size" : 119436
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Fixtures Demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1b9a9de456c2ef1c.json",
+  "parameterValues" : [ ]
+}

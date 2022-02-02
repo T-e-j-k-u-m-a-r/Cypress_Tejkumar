@@ -1,0 +1,121 @@
+{
+  "uid" : "35785ddd41bac548",
+  "name" : "TC01",
+  "fullName" : "TC01",
+  "historyId" : "268aca3bd366fa468d607f5bcfa2a7f5",
+  "time" : {
+    "start" : 1629879602522,
+    "stop" : 1629879602631,
+    "duration" : 109
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Utlity_Login",
+      "time" : {
+        "start" : 1629879602583,
+        "stop" : 1629879602618,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "log (\"This is overwritten login utility\")",
+        "time" : {
+          "start" : 1629879602586,
+          "stop" : 1629879602618,
+          "duration" : 32
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Utility_handleSimpleAlert",
+      "time" : {
+        "start" : 1629879602619,
+        "stop" : 1629879602628,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "log (\"This is handling simple alerts utility\")",
+        "time" : {
+          "start" : 1629879602620,
+          "stop" : 1629879602628,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "189674d69db22485",
+      "name" : "APICommandsExploration/TestCustomCommands.js.mp4",
+      "source" : "189674d69db22485.mp4",
+      "type" : "video/mp4",
+      "size" : 23377
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Test Custom Command"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "35785ddd41bac548.json",
+  "parameterValues" : [ ]
+}

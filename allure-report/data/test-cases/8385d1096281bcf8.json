@@ -1,0 +1,266 @@
+{
+  "uid" : "8385d1096281bcf8",
+  "name" : "TC03- Prompt Alerts",
+  "fullName" : "TC03- Prompt Alerts",
+  "historyId" : "149e45b26e260fbac2d5669a1c93f671",
+  "time" : {
+    "start" : 1629879904348,
+    "stop" : 1629879904608,
+    "duration" : 260
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"/\")",
+      "time" : {
+        "start" : 1629879901498,
+        "stop" : 1629879904344,
+        "duration" : 2846
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j93&a=1585868565&t=pageview&_s=1&dl=https://demoqa.com/alerts/&ul=en-us&de=UTF-8&dt=ToolsQA&sd=24-bit&sr=1366x768&vp=983x660&je=0&_u=YEBAAUABAAAAAC~&jid=205130055&gjid=1382440961&cid=795281251.1629879903&tid=UA-109033876-1&_gid=2063707229.1629879903&_r=1&gtm=2ou8n0&z=1534803617",
+      "time" : {
+        "start" : 1629879904342,
+        "stop" : 1629879904342,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&pvsid=1937068497510637&correlator=3162840658385439&output=ldjh&impl=fif&eid=31062141,44749369,21067496,31062297,31062094&vrg=2021081901&ptt=17&sc=1&sfv=1-0-38&ecs=20210825&iu_parts=21849154601:22343295815,Ad.Plus-Anchor&enc_prev_ius=/0/1&prev_iu_szs=320x100&prev_scp=site=demoqa.com&cookie_enabled=1&cdm=demoqa.com&bc=31&abxe=1&lmt=1629386002&dt=1629879903616&dlt=1629879901928&idt=1620&frm=23&biw=1366&bih=613&isw=983&ish=660&oid=3&adxs=7&adys=660&adks=1054281660&ucis=bc8hs1rsu97o&ifi=1&ifk=1862451478&u_his=2&u_h=768&u_w=1366&u_ah=728&u_aw=1366&u_cd=24&u_sd=1&u_tz=-420&u_java=false&u_nplug=3&u_nmime=4&flash=0&nhd=1&url=https://demoqa.com/alerts/&ref=https://demoqa.com/__/&top=https://demoqa.com/__/#/tests/integration/Handling_AllTypesOf_Elements/AlertsDemo2.js&vis=1&dmc=8&scr_x=0&scr_y=0&psz=970x-1&msz=970x-1&ga_vid=795281251.1629879903&ga_sid=1629879904&ga_hid=1585868565&ga_fc=false&fws=772&ohw=970&btvi=1&uach=WyJXaW5kb3dzIiwiMTAuMCIsIng4NiIsIiIsIjkyLjAuNDUxNS4xNTkiLFtdLG51bGwsbnVsbCxudWxsXQ..&tt_state=W3siaXNzdWVyT3JpZ2luIjoiaHR0cHM6Ly9hdHRlc3RhdGlvbi5hbmRyb2lkLmNvbSIsInN0YXRlIjo3fV0.",
+      "time" : {
+        "start" : 1629879904343,
+        "stop" : 1629879904343,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "/ request",
+      "time" : {
+        "start" : 1629879904343,
+        "stop" : 1629879904343,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "/ request",
+      "time" : {
+        "start" : 1629879904343,
+        "stop" : 1629879904343,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://pagead2.googlesyndication.com/getconfig/sodar?sv=200&tid=gpt&tv=2021081901&st=env",
+      "time" : {
+        "start" : 1629879904344,
+        "stop" : 1629879904344,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "window",
+      "time" : {
+        "start" : 1629879904373,
+        "stop" : 1629879904381,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\"#promtButton\")",
+      "time" : {
+        "start" : 1629879904388,
+        "stop" : 1629879904439,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1629879904440,
+        "stop" : 1629879904579,
+        "duration" : 139
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "stub-1 [ function: undefined ] ",
+      "time" : {
+        "start" : 1629879904579,
+        "stop" : 1629879904579,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "stub-1 [ function: prompt ] ",
+      "time" : {
+        "start" : 1629879904580,
+        "stop" : 1629879904580,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\"#promptResult\")",
+      "time" : {
+        "start" : 1629879904580,
+        "stop" : 1629879904599,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log (\"You entered Jeevitha Tejkumar\")",
+      "time" : {
+        "start" : 1629879904601,
+        "stop" : 1629879904605,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "ddd1e0d3c7a87312",
+      "name" : "Handling_AllTypesOf_Elements/AlertsDemo2.js.mp4",
+      "source" : "ddd1e0d3c7a87312.mp4",
+      "type" : "video/mp4",
+      "size" : 72621
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Handling all types of alerts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8385d1096281bcf8.json",
+  "parameterValues" : [ ]
+}

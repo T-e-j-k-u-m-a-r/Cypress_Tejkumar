@@ -1,0 +1,229 @@
+{
+  "uid" : "76dcdeeb031adfab",
+  "name" : "TC02 - Multi Select",
+  "fullName" : "TC02 - Multi Select",
+  "historyId" : "f5aa850b1e83121d6cb84ff74b5ce281",
+  "time" : {
+    "start" : 1629879225162,
+    "stop" : 1629879225621,
+    "duration" : 459
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"https://skpatro.github.io/demo/signup/\")",
+      "time" : {
+        "start" : 1629879223039,
+        "stop" : 1629879225159,
+        "duration" : 2120
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://pagead2.googlesyndication.com/getconfig/sodar?sv=200&tid=gda&tv=r20210819&st=env",
+      "time" : {
+        "start" : 1629879225158,
+        "stop" : 1629879225158,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get (\"#tools\")",
+      "time" : {
+        "start" : 1629879225195,
+        "stop" : 1629879225232,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "select (\"QTP,JMeter\")",
+      "time" : {
+        "start" : 1629879225232,
+        "stop" : 1629879225521,
+        "duration" : 289
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\"#tools\")",
+      "time" : {
+        "start" : 1629879225521,
+        "stop" : 1629879225533,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "find (\"option:selected\")",
+      "time" : {
+        "start" : 1629879225534,
+        "stop" : 1629879225573,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "expected **[ <option.ui-widget-content>, 1 more... ]** to contain **QTP** assert",
+      "time" : {
+        "start" : 1629879225573,
+        "stop" : 1629879225573,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\"#tools\")",
+      "time" : {
+        "start" : 1629879225573,
+        "stop" : 1629879225591,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "find (\"option:selected\")",
+      "time" : {
+        "start" : 1629879225591,
+        "stop" : 1629879225619,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "expected **[ <option.ui-widget-content>, 1 more... ]** to contain **JMeter** assert",
+      "time" : {
+        "start" : 1629879225619,
+        "stop" : 1629879225619,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "5ca44be5129b23ee",
+      "name" : "20thAugust/MorningTodo/DropdownDemo.js.mp4",
+      "source" : "5ca44be5129b23ee.mp4",
+      "type" : "video/mp4",
+      "size" : 71724
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Single Select & Multi Select Demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "24fad590965c66b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629542096748,
+        "stop" : 1629542097226,
+        "duration" : 478
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "76dcdeeb031adfab.json",
+  "parameterValues" : [ ]
+}

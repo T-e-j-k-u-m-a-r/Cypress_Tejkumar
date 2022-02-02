@@ -1,0 +1,189 @@
+{
+  "uid" : "c47c18ac456a0c",
+  "name" : "TC04-Print a cell value based on another cell value",
+  "fullName" : "TC04-Print a cell value based on another cell value",
+  "historyId" : "540ad27237743bfe4405acbe37399731",
+  "time" : {
+    "start" : 1629542180717,
+    "stop" : 1629542180926,
+    "duration" : 209
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"https://the-internet.herokuapp.com/tables\")",
+      "time" : {
+        "start" : 1629542180036,
+        "stop" : 1629542180708,
+        "duration" : 672
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https://the-internet.herokuapp.com/tables&u=oeu1629542180335r0.9323338309726519&wxhr=true&t=1629542180347&f=298349752,318188263",
+      "time" : {
+        "start" : 1629542180707,
+        "stop" : 1629542180707,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "contains (\"Bach\")",
+      "time" : {
+        "start" : 1629542180739,
+        "stop" : 1629542180779,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "parent",
+      "time" : {
+        "start" : 1629542180779,
+        "stop" : 1629542180800,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\"td\")",
+      "time" : {
+        "start" : 1629542180817,
+        "stop" : 1629542180896,
+        "duration" : 79
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "eq (\"2\")",
+      "time" : {
+        "start" : 1629542180896,
+        "stop" : 1629542180910,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log (\"fbach@yahoo.com\")",
+      "time" : {
+        "start" : 1629542180912,
+        "stop" : 1629542180921,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "within",
+      "time" : {
+        "start" : 1629542180921,
+        "stop" : 1629542180921,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "7709ce5041a7ff56",
+      "name" : "20thAugust/MorningTodo/WebTables.js.mp4",
+      "source" : "7709ce5041a7ff56.mp4",
+      "type" : "video/mp4",
+      "size" : 112495
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Handling Webtables Demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c47c18ac456a0c.json",
+  "parameterValues" : [ ]
+}

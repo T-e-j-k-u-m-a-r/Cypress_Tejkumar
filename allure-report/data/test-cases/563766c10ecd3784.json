@@ -1,0 +1,244 @@
+{
+  "uid" : "563766c10ecd3784",
+  "name" : "TC01",
+  "fullName" : "TC01",
+  "historyId" : "c8f816e50fffc39057172b1fd2044861",
+  "time" : {
+    "start" : 1629879284284,
+    "stop" : 1629879284429,
+    "duration" : 145
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"https://demoqa.com/text-box\")",
+      "time" : {
+        "start" : 1629879276340,
+        "stop" : 1629879284280,
+        "duration" : 7940
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&pvsid=286468816767680&correlator=3714292368418266&output=ldjh&impl=fif&eid=31062031,31062141,31062367,44742768,21067496,31062297&vrg=2021081901&ptt=17&sc=1&sfv=1-0-38&ecs=20210825&iu_parts=21849154601:22343295815,Ad.Plus-Anchor&enc_prev_ius=/0/1&prev_iu_szs=320x100&prev_scp=site=demoqa.com&cookie_enabled=1&cdm=demoqa.com&bc=31&abxe=1&lmt=1629386002&dt=1629879279279&dlt=1629879276914&idt=2277&frm=23&biw=1366&bih=613&isw=983&ish=660&oid=3&adxs=7&adys=660&adks=1054281660&ucis=thvkidmonx1a&ifi=1&ifk=2714949001&u_his=2&u_h=768&u_w=1366&u_ah=728&u_aw=1366&u_cd=24&u_sd=1&u_tz=-420&u_java=false&u_nplug=3&u_nmime=4&flash=0&nhd=1&url=https://demoqa.com/text-box&ref=https://demoqa.com/__/&top=https://demoqa.com/__/#/tests/integration/20thAugust/MorningTodo/PrintAttributeValues.js&vis=1&dmc=8&scr_x=0&scr_y=0&psz=970x-1&msz=970x-1&ga_vid=1716571223.1629879279&ga_sid=1629879279&ga_hid=380763048&ga_fc=false&fws=772&ohw=970&btvi=1&uach=WyJXaW5kb3dzIiwiMTAuMCIsIng4NiIsIiIsIjkyLjAuNDUxNS4xNTkiLFtdLG51bGwsbnVsbCxudWxsXQ..&tt_state=W3siaXNzdWVyT3JpZ2luIjoiaHR0cHM6Ly9hdHRlc3RhdGlvbi5hbmRyb2lkLmNvbSIsInN0YXRlIjo3fV0.",
+      "time" : {
+        "start" : 1629879284277,
+        "stop" : 1629879284277,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "https://demoqa.com/text-box request",
+      "time" : {
+        "start" : 1629879284278,
+        "stop" : 1629879284278,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j93&a=380763048&t=pageview&_s=1&dl=https://demoqa.com/text-box&ul=en-us&de=UTF-8&dt=ToolsQA&sd=24-bit&sr=1366x768&vp=983x660&je=0&_u=YAhAAUABAAAAAC~&jid=872490511&gjid=1615188240&cid=1716571223.1629879279&tid=UA-109033876-1&_gid=1443279190.1629879279&_r=1&gtm=2ou8n0&z=417810617",
+      "time" : {
+        "start" : 1629879284279,
+        "stop" : 1629879284279,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "https://demoqa.com/text-box request",
+      "time" : {
+        "start" : 1629879284279,
+        "stop" : 1629879284279,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://pagead2.googlesyndication.com/getconfig/sodar?sv=200&tid=gpt&tv=2021081901&st=env",
+      "time" : {
+        "start" : 1629879284279,
+        "stop" : 1629879284279,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get (\"#userName\")",
+      "time" : {
+        "start" : 1629879284325,
+        "stop" : 1629879284374,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log (\"Autocomplete value :: off\")",
+      "time" : {
+        "start" : 1629879284380,
+        "stop" : 1629879284400,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log (\"Placeholder value :: Full Name\")",
+      "time" : {
+        "start" : 1629879284401,
+        "stop" : 1629879284412,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log (\"Class value ::  mr-sm-2 form-control\")",
+      "time" : {
+        "start" : 1629879284413,
+        "stop" : 1629879284419,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log (\"Type value :: text\")",
+      "time" : {
+        "start" : 1629879284421,
+        "stop" : 1629879284425,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "f22ebb7ac30e22d0",
+      "name" : "20thAugust/MorningTodo/PrintAttributeValues.js.mp4",
+      "source" : "f22ebb7ac30e22d0.mp4",
+      "type" : "video/mp4",
+      "size" : 106162
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Print Attriibute Values Demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "96b14fbad39271b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629542151555,
+        "stop" : 1629542151688,
+        "duration" : 133
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "563766c10ecd3784.json",
+  "parameterValues" : [ ]
+}

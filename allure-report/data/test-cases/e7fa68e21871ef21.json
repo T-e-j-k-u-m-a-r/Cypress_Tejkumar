@@ -1,0 +1,191 @@
+{
+  "uid" : "e7fa68e21871ef21",
+  "name" : "Print cell value based on some other cell value",
+  "fullName" : "Print cell value based on some other cell value",
+  "historyId" : "f4f602b2a3d8327d527a0fdacc3ed5df",
+  "time" : {
+    "start" : 1629879615803,
+    "stop" : 1629879615934,
+    "duration" : 131
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"http://the-internet.herokuapp.com/tables\"; \"[object Object]\")",
+      "time" : {
+        "start" : 1629879613720,
+        "stop" : 1629879614593,
+        "duration" : 873
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET http://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=http://the-internet.herokuapp.com/tables&u=oeu1629879614071r0.6753200170918021&wxhr=true&t=1629879614082&f=298349752,318188263",
+      "time" : {
+        "start" : 1629879614592,
+        "stop" : 1629879614592,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "contains (\"Conway\")",
+      "time" : {
+        "start" : 1629879615851,
+        "stop" : 1629879615867,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "parent",
+      "time" : {
+        "start" : 1629879615867,
+        "stop" : 1629879615873,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\"td\")",
+      "time" : {
+        "start" : 1629879615878,
+        "stop" : 1629879615922,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "eq (\"2\")",
+      "time" : {
+        "start" : 1629879615922,
+        "stop" : 1629879615929,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log (\"Email ID :: tconway@earthlink.net\")",
+      "time" : {
+        "start" : 1629879615931,
+        "stop" : 1629879615933,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "within",
+      "time" : {
+        "start" : 1629879615933,
+        "stop" : 1629879615933,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "a6d2310eda9bd1",
+      "name" : "APICommandsExploration/WebTables.js.mp4",
+      "source" : "a6d2310eda9bd1.mp4",
+      "type" : "video/mp4",
+      "size" : 104366
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Handling WebTables Demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e7fa68e21871ef21.json",
+  "parameterValues" : [ ]
+}

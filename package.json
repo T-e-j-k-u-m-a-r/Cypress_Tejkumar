@@ -1,0 +1,41 @@
+{
+  "name": "Project1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "jenkins": "cypress run --spec 'cypress/integration/August25th/*.js'",
+    "cy:runHeaded": "cypress run --env allure=true --spec 'cypress/integration/August25th/*.js' --browser chrome --headed",
+    "cy:runHeadedRecordModeAndParallelMode_ON": "cypress run --record --key 8e90249d-c2bb-4287-a2a8-d1a824ff164b --env allure=true --spec 'cypress/integration/CypressPluginTestingDemo/*' --browser chrome --headed --parallel",
+    "cy:runHeadedRecordMode_ON": "cypress run --record --key 8e90249d-c2bb-4287-a2a8-d1a824ff164b --env allure=true --spec 'cypress/integration/August25th/*' --browser chrome --headed",
+    "cy:runHeadless": "cypress run --env allure=true --browser chrome --headless",
+    "allure:report": "allure generate allure-results --clean -o allure-report && allure open allure-report",
+    "allure:clear": "if exist allure-results rmdir /q /s allure-results && if exist allure-report rmdir /q /s allure-report && if exist cypress\\screenshots rmdir /q /s cypress\\screenshots && if exist cypress\\videos rmdir /q /s cypress\\videos",
+    "pretest": "npm run allure:clear",
+    "testHeaded": "npm run cy:runHeaded || npm run posttest",
+    "testHeadless": "npm run cy:runHeadless || npm run posttest",
+    "testHeadedRecordModeAndParallelMode_ON": "npm run cy:runHeadedRecordModeAndParallelMode_ON || npm run posttest",
+    "testHeadedRecordMode_ON": "npm run cy:runHeadedRecordMode_ON || npm run posttest",
+    "posttest": "npm run allure:report",
+    "cy:grepTags": "cypress run --spec 'cypress/integration/CypressPluginTestingDemo/*.js' --env grepTags=@smoke+@m4 --browser chrome --headed",
+    "cy:runSelectedTests": "cypress run --spec 'cypress/integration/cypress-select-tests-Demo/*.js' --env grep=smoke --browser chrome --headed"
+  },
+  "keywords": [],
+  "author": "Tejkumar Kempaiah",
+  "license": "ISC",
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^1.8.0",
+    "@shelex/cypress-allure-plugin": "^2.9.0",
+    "allure-commandline": "^2.13.8",
+    "cy-verify-downloads": "0.0.4",
+    "cypress": "^8.3.0",
+    "cypress-browser-permissions": "^1.0.5",
+    "cypress-downloadfile": "^1.2.1",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-grep": "^2.5.3",
+    "cypress-plugin-tab": "^1.0.5",
+    "cypress-real-events": "^1.5.1",
+    "cypress-select-tests": "^1.7.1",
+    "cypress-xpath": "^1.6.2"
+  }
+}

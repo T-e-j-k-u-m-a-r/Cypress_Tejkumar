@@ -1,0 +1,176 @@
+{
+  "uid" : "d69acb6dbdb3531b",
+  "name" : "TC01",
+  "fullName" : "TC01",
+  "historyId" : "85c78ec8be278365e51ebee54e5a05e2",
+  "time" : {
+    "start" : 1629880081877,
+    "stop" : 1629880082052,
+    "duration" : 175
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"http://the-internet.herokuapp.com/horizontal_slider\")",
+      "time" : {
+        "start" : 1629880081252,
+        "stop" : 1629880081872,
+        "duration" : 620
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET http://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=http://the-internet.herokuapp.com/horizontal_slider&u=oeu1629880081683r0.7753021596355152&wxhr=true&t=1629880081701&f=298349752,318188263",
+      "time" : {
+        "start" : 1629880081872,
+        "stop" : 1629880081872,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get (\"input[type='range']\")",
+      "time" : {
+        "start" : 1629880081893,
+        "stop" : 1629880081928,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "invoke (\"val\"; \"3.5\")",
+      "time" : {
+        "start" : 1629880081928,
+        "stop" : 1629880081942,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "trigger (\"change\")",
+      "time" : {
+        "start" : 1629880081943,
+        "stop" : 1629880082004,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\"#range\")",
+      "time" : {
+        "start" : 1629880082005,
+        "stop" : 1629880082050,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "expected **<span#range>** to have text **3.5** assert",
+      "time" : {
+        "start" : 1629880082049,
+        "stop" : 1629880082049,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "1ad60c356cc04e66",
+      "name" : "Handling_AllTypesOf_Elements/ProgressBarOrHorizontalBar.js.mp4",
+      "source" : "1ad60c356cc04e66.mp4",
+      "type" : "video/mp4",
+      "size" : 71799
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "ProgressBar Demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d69acb6dbdb3531b.json",
+  "parameterValues" : [ ]
+}

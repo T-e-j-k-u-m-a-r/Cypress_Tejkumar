@@ -1,0 +1,235 @@
+{
+  "uid" : "3855167a0745c637",
+  "name" : "TC04 - Simple Click",
+  "fullName" : "TC04 - Simple Click",
+  "historyId" : "de54b86c2f50276d4da83ce7a9b3c2b8",
+  "time" : {
+    "start" : 1629879967616,
+    "stop" : 1629879988081,
+    "duration" : 20465
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 20000ms: Expected to find element: `p#dynamicClickMessage`, but never found it.",
+  "statusTrace" : "AssertionError: Timed out retrying after 20000ms: Expected to find element: `p#dynamicClickMessage`, but never found it.\n    at Context.eval (https://demoqa.com/__cypress/tests?p=cypress\\integration\\Handling_AllTypesOf_Elements\\Clicks.js:134:8)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"https://demoqa.com/buttons\")",
+      "time" : {
+        "start" : 1629879964294,
+        "stop" : 1629879967612,
+        "duration" : 3318
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j93&a=490534449&t=pageview&_s=1&dl=https://demoqa.com/buttons&ul=en-us&de=UTF-8&dt=ToolsQA&sd=24-bit&sr=1366x768&vp=983x660&je=0&_u=YEBAAUABAAAAAC~&jid=429373905&gjid=346576928&cid=1675736028.1629879966&tid=UA-109033876-1&_gid=1717967464.1629879966&_r=1&gtm=2ou8n0&z=116824115",
+      "time" : {
+        "start" : 1629879967611,
+        "stop" : 1629879967611,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&pvsid=2812308518950412&correlator=3660799949931314&output=ldjh&impl=fif&eid=31062030,31062367,21067496,31062297&vrg=2021081901&ptt=17&sc=1&sfv=1-0-38&ecs=20210825&iu_parts=21849154601:22343295815,Ad.Plus-Anchor&enc_prev_ius=/0/1&prev_iu_szs=320x100&prev_scp=site=demoqa.com&cookie_enabled=1&cdm=demoqa.com&bc=31&abxe=1&lmt=1629386002&dt=1629879966203&dlt=1629879964557&idt=1582&frm=23&biw=1366&bih=613&isw=983&ish=660&oid=3&adxs=7&adys=660&adks=1054281660&ucis=r54opkv37o1&ifi=1&ifk=134351117&u_his=2&u_h=768&u_w=1366&u_ah=728&u_aw=1366&u_cd=24&u_sd=1&u_tz=-420&u_java=false&u_nplug=3&u_nmime=4&flash=0&nhd=1&url=https://demoqa.com/buttons&ref=https://demoqa.com/__/&top=https://demoqa.com/__/#/tests/integration/Handling_AllTypesOf_Elements/Clicks.js&vis=1&dmc=8&scr_x=0&scr_y=0&psz=970x-1&msz=970x-1&ga_vid=1675736028.1629879966&ga_sid=1629879966&ga_hid=490534449&ga_fc=false&fws=772&ohw=970&btvi=1&uach=WyJXaW5kb3dzIiwiMTAuMCIsIng4NiIsIiIsIjkyLjAuNDUxNS4xNTkiLFtdLG51bGwsbnVsbCxudWxsXQ..&tt_state=W3siaXNzdWVyT3JpZ2luIjoiaHR0cHM6Ly9hdHRlc3RhdGlvbi5hbmRyb2lkLmNvbSIsInN0YXRlIjo3fV0.",
+      "time" : {
+        "start" : 1629879967611,
+        "stop" : 1629879967611,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "https://demoqa.com/buttons request",
+      "time" : {
+        "start" : 1629879967612,
+        "stop" : 1629879967612,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "https://demoqa.com/buttons request",
+      "time" : {
+        "start" : 1629879967612,
+        "stop" : 1629879967612,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://pagead2.googlesyndication.com/getconfig/sodar?sv=200&tid=gpt&tv=2021081901&st=env",
+      "time" : {
+        "start" : 1629879967612,
+        "stop" : 1629879967612,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 20000ms: Expected to find element: `p#dynamicClickMessage`, but never found it.",
+    "statusTrace" : "AssertionError: Timed out retrying after 20000ms: Expected to find element: `p#dynamicClickMessage`, but never found it.\n    at Context.eval (https://demoqa.com/__cypress/tests?p=cypress\\integration\\Handling_AllTypesOf_Elements\\Clicks.js:134:8)",
+    "steps" : [ {
+      "name" : "contains (\"Click Me\")",
+      "time" : {
+        "start" : 1629879967644,
+        "stop" : 1629879967685,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1629879967685,
+        "stop" : 1629879967820,
+        "duration" : 135
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\"p#dynamicClickMessage\")",
+      "time" : {
+        "start" : 1629879967821,
+        "stop" : 1629879988078,
+        "duration" : 20257
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "p#dynamicClickMessage request",
+      "time" : {
+        "start" : 1629879988078,
+        "stop" : 1629879988078,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "5b7683ab4bd3d2fe",
+      "name" : "Handling_AllTypesOf_Elements/Clicks.js.mp4",
+      "source" : "5b7683ab4bd3d2fe.mp4",
+      "type" : "video/mp4",
+      "size" : 188487
+    }, {
+      "uid" : "cba827b951a49cbe",
+      "name" : "Handling_AllTypesOf_Elements/Clicks.js:2021-08-25T08:26:27.837Z",
+      "source" : "cba827b951a49cbe.png",
+      "type" : "image/png",
+      "size" : 149384
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Clicks Demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3855167a0745c637.json",
+  "parameterValues" : [ ]
+}

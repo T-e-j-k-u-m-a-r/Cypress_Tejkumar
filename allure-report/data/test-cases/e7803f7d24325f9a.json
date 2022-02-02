@@ -1,0 +1,234 @@
+{
+  "uid" : "e7803f7d24325f9a",
+  "name" : "TC03-Prompt Alerts",
+  "fullName" : "TC03-Prompt Alerts",
+  "historyId" : "29bbc8573908c7291c9145762b5f45f3",
+  "time" : {
+    "start" : 1629542076114,
+    "stop" : 1629542076476,
+    "duration" : 362
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"https://the-internet.herokuapp.com/javascript_alerts\")",
+      "time" : {
+        "start" : 1629542074409,
+        "stop" : 1629542076111,
+        "duration" : 1702
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https://the-internet.herokuapp.com/javascript_alerts&u=oeu1629542075693r0.6323679573231&wxhr=true&t=1629542075706&f=298349752,318188263",
+      "time" : {
+        "start" : 1629542076110,
+        "stop" : 1629542076110,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "window",
+      "time" : {
+        "start" : 1629542076130,
+        "stop" : 1629542076141,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "contains (\"Click for JS Prompt\")",
+      "time" : {
+        "start" : 1629542076163,
+        "stop" : 1629542076203,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1629542076203,
+        "stop" : 1629542076421,
+        "duration" : 218
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "request",
+      "time" : {
+        "start" : 1629542076419,
+        "stop" : 1629542076419,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "request",
+      "time" : {
+        "start" : 1629542076420,
+        "stop" : 1629542076420,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "stub-1 [ function: undefined ] ",
+      "time" : {
+        "start" : 1629542076420,
+        "stop" : 1629542076420,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "stub-1 [ function: prompt ] ",
+      "time" : {
+        "start" : 1629542076421,
+        "stop" : 1629542076421,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\"#result\")",
+      "time" : {
+        "start" : 1629542076421,
+        "stop" : 1629542076473,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "expected **<p#result>** to have text **You entered: null** assert",
+      "time" : {
+        "start" : 1629542076473,
+        "stop" : 1629542076473,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "f87f9655836eb1b0",
+      "name" : "20thAugust/MorningTodo/AlertsDemo.js.mp4",
+      "source" : "f87f9655836eb1b0.mp4",
+      "type" : "video/mp4",
+      "size" : 75405
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Alerts Demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e7803f7d24325f9a.json",
+  "parameterValues" : [ ]
+}

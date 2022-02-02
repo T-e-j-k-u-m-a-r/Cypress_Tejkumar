@@ -1,0 +1,160 @@
+{
+  "uid" : "5a8ec74880f562fc",
+  "name" : "hover on first main menu (Admin)",
+  "fullName" : "hover on first main menu (Admin)",
+  "historyId" : "8ae3594de99f5cee5eda98639334c53e",
+  "time" : {
+    "start" : 1629880240406,
+    "stop" : 1629880260987,
+    "duration" : 20581
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 20000ms: `cy.trigger()` failed because this element is not visible:\n\n`<a href=\"#\" id=\"menu_admin_UserManagement\" class=\"arrow\">User Ma...</a>`\n\nThis element `<a#menu_admin_UserManagement.arrow>` is not visible because its content is being clipped by one of its parent elements, which has a CSS property of overflow: `hidden`, `scroll` or `auto`\n\nFix this problem, or use `{force: true}` to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with",
+  "statusTrace" : "CypressError: Timed out retrying after 20000ms: `cy.trigger()` failed because this element is not visible:\n\n`<a href=\"#\" id=\"menu_admin_UserManagement\" class=\"arrow\">User Ma...</a>`\n\nThis element `<a#menu_admin_UserManagement.arrow>` is not visible because its content is being clipped by one of its parent elements, which has a CSS property of overflow: `hidden`, `scroll` or `auto`\n\nFix this problem, or use `{force: true}` to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with\n    at $Cy.ensureVisibility (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:148483:24)\n    at runAllChecks (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:136155:14)\n    at retryActionability (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:136209:16)\n    at tryCatcher (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:13222:23)\n    at Function.Promise.attempt.Promise.try (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:10496:29)\n    at tryFn (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:153290:21)\n    at whenStable (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:153328:12)\n    at https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:152820:16\n    at tryCatcher (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:13222:23)\n    at Promise._settlePromiseFromHandler (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:11157:31)\n    at Promise._settlePromise (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:11214:18)\n    at Promise._settlePromise0 (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:11259:10)\n    at Promise._settlePromises (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:11339:18)\n    at Promise._fulfill (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:11283:18)\n    at https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:12897:46\nFrom Your Spec Code:\n    at Context.eval (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\integration\\OrangeHRM\\TC01_LoginTest.js:148:36)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"https://opensource-demo.orangehrmlive.com/index.php/directory/viewDirectory/reset/1\")",
+      "time" : {
+        "start" : 1629880232041,
+        "stop" : 1629880233120,
+        "duration" : 1079
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 20000ms: `cy.trigger()` failed because this element is not visible:\n\n`<a href=\"#\" id=\"menu_admin_UserManagement\" class=\"arrow\">User Ma...</a>`\n\nThis element `<a#menu_admin_UserManagement.arrow>` is not visible because its content is being clipped by one of its parent elements, which has a CSS property of overflow: `hidden`, `scroll` or `auto`\n\nFix this problem, or use `{force: true}` to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with",
+    "statusTrace" : "CypressError: Timed out retrying after 20000ms: `cy.trigger()` failed because this element is not visible:\n\n`<a href=\"#\" id=\"menu_admin_UserManagement\" class=\"arrow\">User Ma...</a>`\n\nThis element `<a#menu_admin_UserManagement.arrow>` is not visible because its content is being clipped by one of its parent elements, which has a CSS property of overflow: `hidden`, `scroll` or `auto`\n\nFix this problem, or use `{force: true}` to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with\n    at $Cy.ensureVisibility (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:148483:24)\n    at runAllChecks (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:136155:14)\n    at retryActionability (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:136209:16)\n    at tryCatcher (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:13222:23)\n    at Function.Promise.attempt.Promise.try (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:10496:29)\n    at tryFn (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:153290:21)\n    at whenStable (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:153328:12)\n    at https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:152820:16\n    at tryCatcher (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:13222:23)\n    at Promise._settlePromiseFromHandler (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:11157:31)\n    at Promise._settlePromise (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:11214:18)\n    at Promise._settlePromise0 (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:11259:10)\n    at Promise._settlePromises (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:11339:18)\n    at Promise._fulfill (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:11283:18)\n    at https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:12897:46\nFrom Your Spec Code:\n    at Context.eval (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\integration\\OrangeHRM\\TC01_LoginTest.js:148:36)",
+    "steps" : [ {
+      "name" : "contains (\"Admin\")",
+      "time" : {
+        "start" : 1629880240535,
+        "stop" : 1629880240554,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "trigger (\"mouseover\")",
+      "time" : {
+        "start" : 1629880240554,
+        "stop" : 1629880240636,
+        "duration" : 82
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "contains (\"User Management\")",
+      "time" : {
+        "start" : 1629880240636,
+        "stop" : 1629880240646,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "trigger (\"mouseover\")",
+      "time" : {
+        "start" : 1629880240646,
+        "stop" : 1629880260984,
+        "duration" : 20338
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "45ebd8dd85e4abd4",
+      "name" : "OrangeHRM/TC01_LoginTest.js.mp4",
+      "source" : "45ebd8dd85e4abd4.mp4",
+      "type" : "video/mp4",
+      "size" : 397797
+    }, {
+      "uid" : "7b23ed95ed73d3ea",
+      "name" : "OrangeHRM/TC01_LoginTest.js:2021-08-25T08:31:00.757Z",
+      "source" : "7b23ed95ed73d3ea.png",
+      "type" : "image/png",
+      "size" : 118404
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Orange HRM Login test "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5a8ec74880f562fc.json",
+  "parameterValues" : [ ]
+}
